@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/header-tablet.css">
+    <link rel="stylesheet" href="/styles/header-desktop.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/footer-tablet.css">
+    <link rel="stylesheet" href="/styles/footer-desktop.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/home-tablet.css">
+    <link rel="stylesheet" href="/styles/home-desktop.css"> 
+</head>
+<body>
+    <header>
+        <section id="header-top">
+            <nav id="brand">
+                <a href="" rel="">
+                    <img src="/assets/logo-mercado-liebre.svg" alt="logo-mercado-liebre">
+                </a>
+            </nav>
+            <form action="/" method="get" id="form-search">
+                <fieldset>
+                    <input type="text" id="search" name="search">
+                    <button>
+                        <i class="fa-solid fa-hand"></i>
+                    </button>
+                </fieldset>
+            </form>
+            <article>
+                <i class="fa-solid fa-hand"></i>
+                <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            </article>
+        </section>
+        <section id="header-bottom">
+            <nav>
+                <a href="/">Ofertas</a>
+                <a href="/">Tiendas Oficiales</a>
+                <a href="/">Vender</a>
+                <a href="/">Ayuda</a>
+            </nav>
+            <nav>
+                <a href="/register">Creá tu cuenta</a>
+                <a href="/login">Ingresá</a>
+                <a href="/">Mis Compras</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <form action="/login" method="post">
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <label for="password">Contraseña</label>
+                <input type="contraseña" id="contraseña" name="contraseña">
+            </fieldset>
+            <fieldset>
+                <button type="submit">Ingresar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <article>
+            <i class="fa-solid fa-star"></i>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, iure. Dolorum temporibus sed hic cumque provident obcaecati eligendi. Ipsum, alias.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-star"></i>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, iure. Dolorum temporibus sed hic cumque provident obcaecati eligendi. Ipsum, alias.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-star"></i>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, iure. Dolorum temporibus sed hic cumque provident obcaecati eligendi. Ipsum, alias.</p>
+        </article>
+    </footer>
+</body>
+</html>
