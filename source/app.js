@@ -14,5 +14,5 @@ const login = (req, res) => res.sendFile(path.join(__dirname, '../views/login.ht
 const register = (req, res) => res.sendFile(path.join(__dirname, '../views/register.html'))
 
 app.get('/', home);
-app.get('/', login);
-app.get('/', register);
+app.get('/login', login);
+app.get('/register', register);

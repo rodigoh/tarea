@@ -1,88 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-}
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 12px;
     background-color: #f5f5f5;
 }
-
-img{
-    max-width: 100%;
-}
-
 header{
-    width: 100vw;
     background: #EAC926;
 }
-#header-top{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-#header-top #brand{
-    flex: 0 0 calc(45% - 2rem);
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-#header-top #form-search{
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 3rem;
-    align-items: stretch;
-    overflow: hidden;
-}
-#header-top article{
-    flex: 0 0 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#header-top #brand a{
-    flex-grow: 1;
-}
 #header-top #form-search fieldset{
-    flex: 1 0 auto;
+    border: none;
+    width: 19px;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-left: 2px;
+    border-radius: 5px;
     display: flex;
-    justify-content: space-between;
 }
-#header-top #form-search fieldset input{
-    flex-grow: 1;
-    padding: 0.25rem;
-    border-radius: 0.25rem 0 0 0.25rem;
+#search{
+    color: #666;
+    padding-right: 7%;
 }
-#header-top #form-search fieldset button{
-    padding: 0.25rem;
-    flex-basis: 3rem;
-    background-color: #EAC926;
-    border-radius: 0 25% 25% 0;
-    padding: 0.25rem;
-}
-#header-bottom{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-#header-bottom nav{
-    display: none;
-}
-#header-bottom nav a{
-    flex-grow: 1;
-    text-align: center;
-    text-decoration: none;
+.delivery{
+    color: green;
+    border-radius: 50%;
+    border: solid 1px green;
+    background-color: white;
+    font-size: 7px;
+    padding: 2px 5px 5px 2px;
 }
 #burger{
-    flex-grow: 1;
+    background-color: #1259c3;
+    border-radius: 5px;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+#brand img{
+    height: 50px;
+
+}
+#banner{
+    width: 100%;
 }
