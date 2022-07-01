@@ -4,14 +4,38 @@
 
 .descuentos{
     font-size: 16px;
+    color: #39b54a;;
 }
 
 .descripciones{
     font-size: 16px;
+    display: none;
 }
 .titulares{
     font-size: 24px;
 }
 .product-images{
     height: 150px;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.productos1, .productos2{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.productos-detalles{
+    border-top: solid 1px #ebebeb;
+}
+.delivery{
+    color: #39b54a;;
+    border-radius: 50%;
+    border: solid 1px #39b54a;;
+    background-color: #FFF;
+    font-size: 7px;
+    padding: 2px 5px 5px 2px;
 }

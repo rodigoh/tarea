@@ -28,37 +28,37 @@
             </nav>
             <form action="/" method="get" id="form-search">
                 <fieldset>
-                    <div id="search">
-                        <input type="text" id="search" name="search" placeholder="Buscar productos, marcas">
-                    </div>
+                    <input type="text" id="search" name="search" placeholder="Buscar productos, marcas">
                     <button>
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </fieldset>
             </form>
-            <article>
-                <i class="fa-solid fa-hand-holding-dollar"></i>
-                <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            <article class="texto-1">
+                <p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
             </article>
         </section>
         <section id="header-bottom">
-            <ul type="none">
-                <li><a href="/">Ofertas</a></li>
-                <li><a href="/">Tiendas Oficiales</a></li>
-                <li><a href="/">Vender</a></li>
-                <li><a href="/">Ayuda</a></li>
-            </ul>
-            <ul type="none">
-                <li><a href="/register">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
-                <li><a href="/login">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
-                <li><a href="/">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a></li>
-            </ul>
-            <span id="burger">
-                <div class="burger-menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </span>
+            <nav>
+                <ul type="none" id="nav-left">
+                    <li><a href="/">Ofertas</a></li>
+                    <li><a href="/">Tiendas Oficiales</a></li>
+                    <li><a href="/">Vender</a></li>
+                    <li><a href="/">Ayuda</a></li>
+                </ul>
+                <div id="nav-fill"></div>
+                <ul type="none" id="nav-right">
+                    <li><a href="/register">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
+                    <li><a href="/login">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                    <li><a href="/">Mis Compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>
+            </nav>
         </section>
+        <div id="burger">
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
     <main>
         <form action="/register" method="post">
